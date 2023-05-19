@@ -23,6 +23,10 @@ module.exports = {
       backgroundImage: {
         manuelcorreia: "url(../../assets/imgs/manuelCorreiaPic.png)",
         ufrpe: "url(../../assets/imgs/ufrpePic.png)",
+        livro1: "url(../../assets/imgs/aterraeohomem1.jpg)",
+        livro2: "url(../../assets/imgs/aterraeohomem2.jpg)",
+        livro3: "url(../../assets/imgs/aterraeohomem3.jpg)",
+        manuelcorreia2: "url(../../assets/imgs/manuelCorreia2.jpg)",
       },
     },
   },
