@@ -2,12 +2,13 @@ import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import { FiInstagram } from "react-icons/fi";
+import About from "../About";
 
 export default function Home() {
   return (
     <main className="w-full">
       <Header />
-      <div className="flex flex-col items-center  mt-14 text-[rem] ">
+      <div className="flex flex-col items-center  mt-12 text-[rem] ">
         <h1 className="font-castoro min-w-[500px] max-w-[800px] text-center text-[3rem] text-charcoal font-bold">
           Cátedra Manuel <br /> Correia de Andrade
         </h1>
@@ -16,10 +17,10 @@ export default function Home() {
         </h2>
       </div>
       <div className="flex flex-col items-center">
-        <Button title={"Manuel Correia de Andrade"} />
-        <Button title={"Conhecendo a Cátedra"} />
-        <Button title={"Membros e Linhas de pesquisa"} />
-        <Button title={"Atividades da Cátedra"} />
+        <Button id={"#about"} title={"Manuel Correia de Andrade"} />
+        <Button id={"#about"} title={"Conhecendo a Cátedra"} />
+        <Button id={"#about"} title={"Membros e Linhas de pesquisa"} />
+        <Button id={"#about"} title={"Atividades da Cátedra"} />
       </div>
       <div className="flex items-center justify-center gap-2 mt-4">
         <FiInstagram className="text-[1.4rem] text-charcoal" />
@@ -33,6 +34,9 @@ export default function Home() {
         </a>
       </div>
       <Footer />
+      <div className="divider-1 my-10"></div>
+      <About id={"about"} />
+      <div className="divider-2 my-10"></div>
     </main>
   );
 }
