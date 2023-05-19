@@ -43,6 +43,7 @@ html {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
+  scroll-behavior: smooth;
 }
 
 /*
@@ -383,4 +384,14 @@ video {
 /* Make elements with the HTML hidden attribute stay hidden by default */
 [hidden] {
   display: none;
+}
+
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(-270deg, #dcd0c0, rgba(204, 244, 230, 0.34));
+}
+
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(270deg, #dcd0c0, rgba(204, 244, 230, 0.34));
 }
