@@ -3,6 +3,8 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import { FiInstagram } from "react-icons/fi";
 import About from "../About";
+import Members from "../Members";
+import Chair from "../Chair";
 
 export default function Home() {
   return (
@@ -18,8 +20,8 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center">
         <Button id={"#about"} title={"Manuel Correia de Andrade"} />
-        <Button id={"#about"} title={"Conhecendo a Cátedra"} />
-        <Button id={"#about"} title={"Membros e Linhas de pesquisa"} />
+        <Button id={"#chair"} title={"Conhecendo a Cátedra"} />
+        <Button id={"#members"} title={"Membros e Linhas de pesquisa"} />
         <Button id={"#about"} title={"Atividades da Cátedra"} />
       </div>
       <div className="flex items-center justify-center gap-2 mt-4">
@@ -36,6 +38,10 @@ export default function Home() {
       <Footer />
       <div className="divider-1 my-10"></div>
       <About id={"about"} />
+      <div className="divider-2 my-10"></div>
+      <Chair id={"chair"} />
+      <div className="divider-1 my-10"></div>
+      <Members id={"members"} />
       <div className="divider-2 my-10"></div>
     </main>
   );
