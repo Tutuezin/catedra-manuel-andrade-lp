@@ -19,15 +19,20 @@ export default function About({ id }: Props) {
           <div className="bg-livro3 min-w-[11rem] min-h-[15rem] bg-center bg-no-repeat bg-cover"></div>
         </section>
         <p className=" mt-8 min-w-[200px] max-w-[800px] font-dmsans font-normal tracking-widest text-[1.1rem] text-charcoal text-justify">
-          Manuel Correia de Oliveira Andrade foi um destacado intelectual
-          brasileiro, atuando como escritor, historiador, geógrafo, advogado e
-          professor. Reconhecido como um dos principais pensadores das ciências
-          humanas no Brasil, ele recebeu o título de Professor Emérito pela
-          Universidade Federal de Pernambuco. <br /> Além de seu trabalho como
-          educador, Manuel Andrade também se destacou como autor de diversos
-          livros de referência, principalmente na área de geografia. Suas obras
-          contribuíram significativamente para o desenvolvimento e o
-          entendimento da disciplina geográfica no país.
+          A contribuição do geógrafo e historiador Manuel Correia de Andrade
+          para as ciências humanas está materializada nos seus livros, artigos
+          científicos, colunas semanais em jornais, orientações de teses,
+          dissertações e materiais didáticos. Essas contribuições acadêmicas
+          influenciaram inúmeros pesquisadores e se desdobraram em artigos,
+          monografia, dissertações e teses das mais variadas áreas das ciências
+          humanas e sociais, além de trabalhos que analisam especificamente a
+          sua trajetória acadêmica, modo de organização e sistematização do
+          pensamento e suas contribuições paras as ciências humanas e sociais
+          como um todo. O autor de “A terra e o homem no Nordeste” é uma
+          referência não só para o debate e reflexões sobre a questão agrária,
+          mas também para diferentes temas, tais como: planejamento regional e
+          territorial, geopolítica, questões ambientais e fonte importante para
+          compreender a história das revoltas populares.
         </p>
 
         <section className="flex flex-col gap-40">
