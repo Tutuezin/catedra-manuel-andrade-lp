@@ -44,7 +44,7 @@ export default function Members({ id }: Props) {
                   : `flex flex-col items-center transition duration-300 ${hidden}`
               }
             >
-              <section className="flex flex-col w-[15rem] h-[15rem] gap-1">
+              <section className="flex flex-col items-center w-[15rem] h-[15rem] gap-1">
                 <div
                   onClick={() => chooseMember(item.name)}
                   className={`${item.bg} max-w-[11rem] min-w-[11rem] min-h-[15rem] bg-center bg-no-repeat bg-cover rounded-tl-[30px] rounded-tr-[9px] rounded-bl-[30px] rounded-br-[60px]`}
