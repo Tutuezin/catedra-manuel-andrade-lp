@@ -5,6 +5,7 @@ import { FiInstagram } from "react-icons/fi";
 import About from "../About";
 import Members from "../Members";
 import Chair from "../Chair";
+import Activities from "../Activities";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         <Button id={"#about"} title={"Manuel Correia de Andrade"} />
         <Button id={"#chair"} title={"Conhecendo a Cátedra"} />
         <Button id={"#members"} title={"Membros e Linhas de pesquisa"} />
-        <Button id={"#about"} title={"Atividades da Cátedra"} />
+        <Button id={"#activities"} title={"Atividades da Cátedra"} />
       </div>
       <div className="flex items-center justify-center gap-2 mt-4">
         <FiInstagram className="text-[1.4rem] text-charcoal" />
@@ -43,6 +44,8 @@ export default function Home() {
       <div className="divider-1 my-10"></div>
       <Members id={"members"} />
       <div className="divider-2 my-10"></div>
+      <Activities id={"activities"} />
+      <div className="divider-1 my-10"></div>
     </main>
   );
 }
