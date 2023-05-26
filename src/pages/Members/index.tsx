@@ -47,7 +47,7 @@ export default function Members({ id }: Props) {
               <section className="flex flex-col items-center w-[15rem] h-[15rem] gap-1">
                 <div
                   onClick={() => chooseMember(item.name)}
-                  className={`${item.bg} max-w-[11rem] min-w-[11rem] min-h-[15rem] bg-center bg-no-repeat bg-cover rounded-tl-[30px] rounded-tr-[9px] rounded-bl-[30px] rounded-br-[60px]`}
+                  className={`${item.bg} max-w-[11rem] min-w-[11rem] min-h-[15rem] bg-center bg-no-repeat bg-cover rounded-tl-[30px] rounded-tr-[9px] rounded-bl-[30px] rounded-br-[60px] cursor-pointer`}
                 />
                 <h2 className="text-center font-dmsans font-normal tracking-wider text-[1.1rem] text-charcoal">
                   {item.name}
